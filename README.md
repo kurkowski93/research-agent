@@ -16,7 +16,6 @@ A research agent based on LangGraph that helps deepen knowledge on a chosen topi
 - **LangChain** - orchestration of language models and tools
 - **OpenAI GPT-4** - advanced language model
 - **Tavily API** - semantic information search
-- **Wikipedia API** - knowledge base access
 - **Pydantic** - data validation and state management
 
 ## Installation
@@ -85,7 +84,7 @@ The agent operates based on a flow graph built using LangGraph. The process proc
 
 1. User defines their profile, research topic, and current knowledge level
 2. Agent analyzes this information and plans the learning path
-3. Using Tavily API and Wikipedia API, the agent gathers relevant information
+3. Using Tavily API, the agent gathers relevant information
 4. GPT-4 processes the collected information and generates personalized explanations
 5. Agent identifies related topics for further exploration
 6. Results are returned in a structured format
